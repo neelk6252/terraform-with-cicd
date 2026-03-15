@@ -1,0 +1,10 @@
+*.tfstate*
+*.tfstate.backup    
+.terraform/
+# Ignore override files as they are usually used to override resources locally and so do not contain sensitive data.
+
+override.tf
+override.tf.json    
+# Include override files in the ignore list since they are used to override resources locally and so do not contain sensitive data.
+override.tf
+override.tf.json
