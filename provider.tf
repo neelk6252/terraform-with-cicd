@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "neel-terraform-state"
-    key    = "/state/terraform.tfstate"
+    key    = "state/terraform.tfstate"
     region = "ap-south-1"
     
   }
